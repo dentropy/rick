@@ -1,10 +1,5 @@
 import time
-rick = ["We're no strangers to love",
-"You know the rules and so do I",
-"A full commitment's what I'm thinking of",
-"You wouldn't get this from any other guy",
-"I just want to tell you how I'm feeling",
-"Gotta make you understand",
+rick = [
 "Never gonna give you up, never gonna let you down",
 "Never gonna run around and desert you",
 "Never gonna make you cry, never gonna say goodbye"
@@ -13,6 +8,7 @@ rick = ["We're no strangers to love",
 "Your heart's been aching but you're too shy to say it",
 "Inside we both know what's been going on",
 "We know the game and we're gonna play it"]
-for i in rick:
-    print(i)
-    time.sleep(2)
+while True:
+	for i in rick:
+    		print(i)
+    		time.sleep(2)
